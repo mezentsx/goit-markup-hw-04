@@ -350,8 +350,8 @@ body {
 .portfolio-list .portfolio-card {
   padding-top: 20px;
   padding-bottom: 20px;
-  margin-left: 24px;
-  margin-right: 24px;
+  padding-left: 24px;
+  padding-right: 24px;
 }
 
 .portfolio-title {
@@ -473,6 +473,8 @@ body {
   margin: 0;
   padding-top: 30px;
   padding-bottom: 30px;
+  padding-left: 32px;
+  padding-right: 32px;
 }
 
 .team-list .title {
