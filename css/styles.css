@@ -621,7 +621,6 @@ img {
   fill: var(--klients-fill);
   /* padding: 16px 32px; */
   display: flex;
-  text-align: center;
   align-items: center;
   justify-content: center;
 
