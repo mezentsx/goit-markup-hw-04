@@ -53,6 +53,10 @@ img {
   height: auto;
 }
 
+a {
+  text-decoration: none;
+}
+
 /* Header */
 
 .page-header {
@@ -75,7 +79,6 @@ img {
 
 .logo {
   font-family: 'Raleway', sans-serif;
-  text-decoration: none;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
@@ -126,7 +129,6 @@ img {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  text-decoration: none;
   padding-top: 32px;
   padding-bottom: 32px;
 }
@@ -159,7 +161,6 @@ img {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  text-decoration: none;
 
   padding-top: 32px;
   padding-bottom: 32px;
@@ -332,6 +333,13 @@ img {
   justify-content: center;
 }
 
+.btn-list .item:hover,
+.btn-list .item:focus {
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+  cursor: pointer;
+}
+
 .btn-list .item + .item {
   margin-left: 8px;
 }
@@ -392,6 +400,7 @@ img {
   letter-spacing: 0.06em;
   margin-top: 0;
   margin-bottom: 4px;
+  color: var(--title-text-color);
 }
 
 .portfolio-text {
@@ -697,7 +706,6 @@ img {
 .logotip {
   display: block;
   font-family: 'Raleway', sans-serif;
-  text-decoration: none;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
@@ -720,7 +728,6 @@ img {
   color: rgba(255, 255, 255, 0.6);
   font-size: 14px;
   line-height: 1.71;
-  text-decoration: none;
 }
 
 .address .footer-link:hover,
