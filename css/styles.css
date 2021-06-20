@@ -371,6 +371,10 @@ a {
   cursor: pointer;
 }
 
+.portfolio-list .card-link {
+  display: block;
+}
+
 /* Альтернатива */
 
 /* .portfolio-list .item:nth-child(3n) {
